@@ -1,0 +1,12 @@
+name: poc-django-reactjs
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - compilers
+  - nodejs
+  - yarn
+  - poetry
+  - pip
+  - pip:
+    - compose-go
