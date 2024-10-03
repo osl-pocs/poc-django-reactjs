@@ -20,7 +20,7 @@ hiredis = "^3.0.0"
 celery = "^5.4.0"
 django-celery-beat = "^2.7.0"
 flower = "^2.0.1"
-uvicorn = {extras = ["standard"], version = "^0.30.6"}
+uvicorn = {extras = ["standard"], version = "^0.31.0"}
 uvicorn-worker = "^0.2.0"
 django = "^5.1.1"
 django-environ = "^0.11.2"
