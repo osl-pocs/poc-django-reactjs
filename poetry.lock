@@ -551,6 +551,7 @@ optional = false
 python-versions = "<4.0.0,>=3.7.0"
 files = [
     {file = "compose_go-2.29.7-cp312-cp312-manylinux_2_35_x86_64.whl", hash = "sha256:57d530bd9cb473524e968ed655eca531c137c2d41b7bb2e133d1a093b380b025"},
+    {file = "compose_go-2.29.7-cp313-cp313-manylinux_2_35_x86_64.whl", hash = "sha256:5f12a550b36a73f9ded81e8b23a4779e99ebc984028ea929541316dddd48c43d"},
     {file = "compose_go-2.29.7.tar.gz", hash = "sha256:6abf27e0869e7386f76cb79094164aa7010b606f26d8e09695aabeb472b289dc"},
 ]
 
@@ -2819,13 +2820,13 @@ files = [
 
 [[package]]
 name = "redis"
-version = "5.1.0"
+version = "5.2.0"
 description = "Python client for Redis database and key-value store"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "redis-5.1.0-py3-none-any.whl", hash = "sha256:fd4fccba0d7f6aa48c58a78d76ddb4afc698f5da4a2c1d03d916e4fd7ab88cdd"},
-    {file = "redis-5.1.0.tar.gz", hash = "sha256:b756df1e4a3858fcc0ef861f3fc53623a96c41e2b1f5304e09e0fe758d333d40"},
+    {file = "redis-5.2.0-py3-none-any.whl", hash = "sha256:ae174f2bb3b1bf2b09d54bf3e51fbc1469cf6c10aa03e21141f51969801a7897"},
+    {file = "redis-5.2.0.tar.gz", hash = "sha256:0b1087665a771b1ff2e003aa5bdd354f15a70c9e25d5a7dbf9c722c16528a7b0"},
 ]
 
 [package.extras]
@@ -4110,4 +4111,4 @@ test = ["coverage (>=5.3.1)", "prompt-toolkit (>=3.0.29)", "pygments (>=2.2)", "
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.*"
-content-hash = "fe1a8e187afa1f59c442b4feb0a951b51554f74327322fa605e2252d3b2141bd"
+content-hash = "dd1220f74f3760ba4b13ddfde41962fe4302b8d9eb67ea49cf31a4f564526ede"
