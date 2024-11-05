@@ -551,6 +551,7 @@ optional = false
 python-versions = "<4.0.0,>=3.7.0"
 files = [
     {file = "compose_go-2.29.7-cp312-cp312-manylinux_2_35_x86_64.whl", hash = "sha256:57d530bd9cb473524e968ed655eca531c137c2d41b7bb2e133d1a093b380b025"},
+    {file = "compose_go-2.29.7-cp313-cp313-manylinux_2_35_x86_64.whl", hash = "sha256:5f12a550b36a73f9ded81e8b23a4779e99ebc984028ea929541316dddd48c43d"},
     {file = "compose_go-2.29.7.tar.gz", hash = "sha256:6abf27e0869e7386f76cb79094164aa7010b606f26d8e09695aabeb472b289dc"},
 ]
 
@@ -780,13 +781,13 @@ files = [
 
 [[package]]
 name = "django"
-version = "5.1.1"
+version = "5.1.3"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "Django-5.1.1-py3-none-any.whl", hash = "sha256:71603f27dac22a6533fb38d83072eea9ddb4017fead6f67f2562a40402d61c3f"},
-    {file = "Django-5.1.1.tar.gz", hash = "sha256:021ffb7fdab3d2d388bc8c7c2434eb9c1f6f4d09e6119010bbb1694dda286bc2"},
+    {file = "Django-5.1.3-py3-none-any.whl", hash = "sha256:8b38a9a12da3ae00cb0ba72da985ec4b14de6345046b1e174b1fd7254398f818"},
+    {file = "Django-5.1.3.tar.gz", hash = "sha256:c0fa0e619c39325a169208caef234f90baa925227032ad3f44842ba14d75234a"},
 ]
 
 [package.dependencies]
@@ -4110,4 +4111,4 @@ test = ["coverage (>=5.3.1)", "prompt-toolkit (>=3.0.29)", "pygments (>=2.2)", "
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.*"
-content-hash = "fe1a8e187afa1f59c442b4feb0a951b51554f74327322fa605e2252d3b2141bd"
+content-hash = "1a95ac31a5c1504e5113601f7a854d674f7ea1e38c9bdc4acd2df19d4fdb3eaf"
